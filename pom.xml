@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.dclar</groupId>
 	<artifactId>release-testing</artifactId>
-	<version>y</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>release-testing</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -22,7 +22,7 @@
 		<connection>scm:git:https://github.com/dclar/release-testing.git</connection>
 		<developerConnection>scm:git:https://github.com/dclar/release-testing.git</developerConnection>
 		<url>https://github.com/dclar/release-testing</url>
-		<tag>y</tag>
+		<tag>@{project.version}</tag>
 	</scm>
 
 	<dependencies>

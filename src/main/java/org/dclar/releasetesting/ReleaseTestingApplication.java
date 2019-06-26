@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReleaseTestingApplication {
 
 	public static void main(String[] args) {
+
+		// upgrade
 		SpringApplication.run(ReleaseTestingApplication.class, args);
 	}
 
